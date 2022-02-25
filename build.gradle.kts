@@ -12,7 +12,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:7.0.4")
+        classpath("com.android.tools.build:gradle:7.1.2")
         // Aliucord gradle plugin which makes everything work and builds plugins
         classpath("com.aliucord:gradle:main-SNAPSHOT")
         // Kotlin support. Remove if you want to use Java
@@ -40,7 +40,7 @@ subprojects {
 
     // Fill out with your info
     aliucord {
-        author("DISCORD USERNAME", 123456789L)
+        author("jai#0001", 98133204636028928L)
         updateUrl.set("https://raw.githubusercontent.com/USERNAME/REPONAME/builds/updater.json")
         buildUrl.set("https://raw.githubusercontent.com/USERNAME/REPONAME/builds/%s.zip")
     }
