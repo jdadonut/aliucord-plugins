@@ -19,7 +19,9 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21")
     }
 }
-
+plugins {
+    kotlin("jvm") version "1.6.10"
+}
 allprojects {
     repositories {
         google()
@@ -84,6 +86,4 @@ subprojects {
     }
 }
 
-task<Delete>("clean") {
-    delete(rootProject.buildDir)
-}
+
